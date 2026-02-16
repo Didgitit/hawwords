@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "model_type": "micro_wake_word",
+  "wake_word": "Lumi",
+  "author": "Custom",
+  "model": "lumi.tflite",
+  "micro": {
+    "probability_cutoff": 0.85,
+    "sliding_window_size": 7,
+    "feature_step_size": 10,
+    "tensor_arena_size": 30000
+  }
+}
